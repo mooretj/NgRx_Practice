@@ -32,4 +32,4 @@ export const authReducer = createReducer(
       user: undefined
     }
   })
-)
+);
