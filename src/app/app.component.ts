@@ -50,10 +50,12 @@ export class AppComponent implements OnInit {
           }
         }
       });
+
       this.isLoggedIn$ = this.store
         .pipe(
           select(isLoggedIn)
         );
+
       this.isLoggedOut$ = this.store.pipe(
         select(isLoggedOut)
       );
